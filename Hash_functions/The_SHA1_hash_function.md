@@ -1,6 +1,7 @@
 
-copy string (without quotes - ") from the server response
+`nc <ip> <port>`
+copy `string` (without quotes - ") from the server response
 
-echo -n "string" | sha1sum
+echo -n "`string`" | sha1sum
 
-echo -n "string" | shasum
+echo -n "`string`" | shasum
