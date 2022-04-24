@@ -1,6 +1,7 @@
 
-copy string (without quotes - ") from the server response
+`nc <ip> <port>`
+copy `string` (without quotes - ") from the server response
 
-echo -n "string" | md5sum
+echo -n "`string`" | md5sum
 
-echo -n "string" | md5
+echo -n "`string`" | md5

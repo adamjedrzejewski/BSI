@@ -1,4 +1,5 @@
 
-copy string (without quotes - ") from the server response
-john --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-md5 pass.txt
+`nc <ip> <port>`
+copy `string` (without quotes - ") from the server response into `pass.txt`
+`john` --wordlist=/rockyou.txt --format=raw-md5 `pass.txt`
 

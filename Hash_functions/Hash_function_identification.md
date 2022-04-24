@@ -1,9 +1,10 @@
 
-copy string, result (without quotes - ") from the server response
+`nc <ip> <port>`
+copy `string`, `result` (without quotes - ") from the server response
 import hashlib
 
-word = 'string'.encode('utf-8')
-key = 'result'
+word = '`string`'.encode('utf-8')
+key = '`result`'
 
 for alg in hashlib.algorithms_available:
     try:
